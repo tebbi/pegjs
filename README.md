@@ -1,3 +1,5 @@
+This is a tiny fork that extends the parser with an environment object. The user Javascript code can access the object `env`, which is cloned using Object.create on every recursive descent.
+
 PEG.js
 ======
 
